@@ -1,0 +1,1563 @@
+{
+  "openapi": "3.0.4",
+  "info": {
+    "title": "FormsLetters",
+    "version": "1.0"
+  },
+  "paths": {
+    "/client-info": {
+      "get": {
+        "tags": [
+          "ClientInfo"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/ClientInfoDto"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/ClientInfoDto"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/ClientInfoDto"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/client-info/{id}": {
+      "get": {
+        "tags": [
+          "ClientInfo"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/ClientInfoDto"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ClientInfoDto"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ClientInfoDto"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/client-info/{id}/data": {
+      "get": {
+        "tags": [
+          "ClientInfo"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "template",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/TemplateDataResponseDto"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/TemplateDataResponseDto"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/TemplateDataResponseDto"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/clients": {
+      "get": {
+        "tags": [
+          "Clients"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/ClientDto"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/ClientDto"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/ClientDto"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/generate": {
+      "post": {
+        "tags": [
+          "Documents"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/GenerateDocumentRequestDto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/GenerateDocumentRequestDto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/GenerateDocumentRequestDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/GenerateDocumentResponseDto"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/GenerateDocumentResponseDto"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/GenerateDocumentResponseDto"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/send": {
+      "post": {
+        "tags": [
+          "Documents"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/SendDocumentRequestDto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/SendDocumentRequestDto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/SendDocumentRequestDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/forms": {
+      "get": {
+        "tags": [
+          "Forms"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/FormDto"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/FormDto"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/FormDto"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/forms/{id}": {
+      "get": {
+        "tags": [
+          "Forms"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/FormDto"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/FormDto"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/FormDto"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/forms/prefill": {
+      "post": {
+        "tags": [
+          "Forms"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/PrefillFormRequestDto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/PrefillFormRequestDto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/PrefillFormRequestDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/PrefillFormResponseDto"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/PrefillFormResponseDto"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/PrefillFormResponseDto"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/letters/generate": {
+      "post": {
+        "tags": [
+          "Letters"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/GenerateLetterRequestDto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/GenerateLetterRequestDto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/GenerateLetterRequestDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/GenerateDocumentResponseDto"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/GenerateDocumentResponseDto"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/GenerateDocumentResponseDto"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/letters/generate-from-html": {
+      "post": {
+        "tags": [
+          "Letters"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/GenerateLetterFromHtmlRequestDto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/GenerateLetterFromHtmlRequestDto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/GenerateLetterFromHtmlRequestDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/GenerateDocumentResponseDto"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/GenerateDocumentResponseDto"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/GenerateDocumentResponseDto"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/letters/pdf/{fileName}": {
+      "get": {
+        "tags": [
+          "Letters"
+        ],
+        "parameters": [
+          {
+            "name": "fileName",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/LibreOffice/prepare-document": {
+      "post": {
+        "tags": [
+          "LibreOffice"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/PrepareDocumentRequest"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/PrepareDocumentRequest"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/PrepareDocumentRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/LibreOffice/generate-pdf": {
+      "post": {
+        "tags": [
+          "LibreOffice"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/GeneratePdfFromEditorRequest"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/GeneratePdfFromEditorRequest"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/GeneratePdfFromEditorRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/LibreOffice/wopi/files/{fileId}": {
+      "get": {
+        "tags": [
+          "LibreOffice"
+        ],
+        "parameters": [
+          {
+            "name": "fileId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/LibreOffice/wopi/files/{fileId}/contents": {
+      "get": {
+        "tags": [
+          "LibreOffice"
+        ],
+        "parameters": [
+          {
+            "name": "fileId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "LibreOffice"
+        ],
+        "parameters": [
+          {
+            "name": "fileId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/MockLibreOffice/capabilities": {
+      "get": {
+        "tags": [
+          "MockLibreOffice"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/MockLibreOffice/templates": {
+      "get": {
+        "tags": [
+          "MockLibreOffice"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/MockLibreOffice/editor/{templateId}": {
+      "get": {
+        "tags": [
+          "MockLibreOffice"
+        ],
+        "parameters": [
+          {
+            "name": "templateId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "clientId",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/MockLibreOffice/preview/{templateId}": {
+      "get": {
+        "tags": [
+          "MockLibreOffice"
+        ],
+        "parameters": [
+          {
+            "name": "templateId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/mock-libreoffice/hosting/capabilities": {
+      "get": {
+        "tags": [
+          "MockLibreOfficeOnline"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/mock-libreoffice/lool/{fileId}": {
+      "get": {
+        "tags": [
+          "MockLibreOfficeOnline"
+        ],
+        "parameters": [
+          {
+            "name": "fileId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          },
+          {
+            "name": "WOPISrc",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/mock-libreoffice/hosting/discovery": {
+      "get": {
+        "tags": [
+          "MockLibreOfficeOnline"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/clients/{id}/data": {
+      "get": {
+        "tags": [
+          "TemplateData"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "template",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/TemplateDataResponseDto"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/TemplateDataResponseDto"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/TemplateDataResponseDto"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/clients/template-metadata": {
+      "get": {
+        "tags": [
+          "TemplateData"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "object",
+                  "additionalProperties": {
+                    "$ref": "#/components/schemas/TemplateMetadata"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "additionalProperties": {
+                    "$ref": "#/components/schemas/TemplateMetadata"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "object",
+                  "additionalProperties": {
+                    "$ref": "#/components/schemas/TemplateMetadata"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/templates": {
+      "get": {
+        "tags": [
+          "Templates"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/TemplateDto"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/TemplateDto"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/TemplateDto"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/templates/parse-template": {
+      "post": {
+        "tags": [
+          "Templates"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ParseTemplateRequestDto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ParseTemplateRequestDto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/ParseTemplateRequestDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/ParseTemplateResponseDto"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ParseTemplateResponseDto"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ParseTemplateResponseDto"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/templates/upload": {
+      "post": {
+        "tags": [
+          "Templates"
+        ],
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "file": {
+                    "type": "string",
+                    "format": "binary"
+                  }
+                }
+              },
+              "encoding": {
+                "file": {
+                  "style": "form"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/TemplateDto"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/TemplateDto"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/TemplateDto"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/webhook/cognito": {
+      "post": {
+        "tags": [
+          "Webhook"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CognitoFormSubmissionDto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CognitoFormSubmissionDto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/CognitoFormSubmissionDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/windows-libreoffice/prepare-document": {
+      "post": {
+        "tags": [
+          "WindowsLibreOffice"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/WindowsPrepareDocumentRequest"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/WindowsPrepareDocumentRequest"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/WindowsPrepareDocumentRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/windows-libreoffice/edit/{fileId}": {
+      "get": {
+        "tags": [
+          "WindowsLibreOffice"
+        ],
+        "parameters": [
+          {
+            "name": "fileId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/windows-libreoffice/generate-pdf/{fileId}": {
+      "post": {
+        "tags": [
+          "WindowsLibreOffice"
+        ],
+        "parameters": [
+          {
+            "name": "fileId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/windows-libreoffice/pdf/{fileName}": {
+      "get": {
+        "tags": [
+          "WindowsLibreOffice"
+        ],
+        "parameters": [
+          {
+            "name": "fileName",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/windows-libreoffice/document/{fileId}": {
+      "get": {
+        "tags": [
+          "WindowsLibreOffice"
+        ],
+        "parameters": [
+          {
+            "name": "fileId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/windows-libreoffice/save-document/{fileId}": {
+      "post": {
+        "tags": [
+          "WindowsLibreOffice"
+        ],
+        "parameters": [
+          {
+            "name": "fileId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/WindowsSaveDocumentRequest"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/WindowsSaveDocumentRequest"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/WindowsSaveDocumentRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/windows-libreoffice/status": {
+      "get": {
+        "tags": [
+          "WindowsLibreOffice"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "AddressSection": {
+        "type": "object",
+        "properties": {
+          "line1": {
+            "type": "string",
+            "nullable": true
+          },
+          "city": {
+            "type": "string",
+            "nullable": true
+          },
+          "zip": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "ClientDto": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "name": {
+            "type": "string",
+            "nullable": true
+          },
+          "email": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "ClientInfoDto": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "name": {
+            "type": "string",
+            "nullable": true
+          },
+          "address": {
+            "type": "string",
+            "nullable": true
+          },
+          "taxNumber": {
+            "type": "string",
+            "nullable": true
+          },
+          "email": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "CognitoFormSubmissionDto": {
+        "type": "object",
+        "properties": {
+          "entryId": {
+            "type": "integer",
+            "format": "int64"
+          },
+          "dateCreated": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "data": {
+            "$ref": "#/components/schemas/DataSection"
+          }
+        },
+        "additionalProperties": false
+      },
+      "DataSection": {
+        "type": "object",
+        "properties": {
+          "companyName": {
+            "type": "string",
+            "nullable": true
+          },
+          "email": {
+            "type": "string",
+            "nullable": true
+          },
+          "taxID": {
+            "type": "string",
+            "nullable": true
+          },
+          "contactName": {
+            "type": "string",
+            "nullable": true
+          },
+          "phoneNumber": {
+            "type": "string",
+            "nullable": true
+          },
+          "address": {
+            "$ref": "#/components/schemas/AddressSection"
+          }
+        },
+        "additionalProperties": false
+      },
+      "FormDto": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "nullable": true
+          },
+          "name": {
+            "type": "string",
+            "nullable": true
+          },
+          "description": {
+            "type": "string",
+            "nullable": true
+          },
+          "url": {
+            "type": "string",
+            "nullable": true
+          },
+          "lastModified": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "isActive": {
+            "type": "boolean"
+          }
+        },
+        "additionalProperties": false
+      },
+      "GenerateDocumentRequestDto": {
+        "type": "object",
+        "properties": {
+          "clientId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "templateName": {
+            "type": "string",
+            "nullable": true
+          },
+          "updatedHtml": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "GenerateDocumentResponseDto": {
+        "type": "object",
+        "properties": {
+          "pdfPath": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "GenerateLetterFromHtmlRequestDto": {
+        "type": "object",
+        "properties": {
+          "templateName": {
+            "type": "string",
+            "nullable": true
+          },
+          "clientId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "updatedHtml": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "GenerateLetterRequestDto": {
+        "type": "object",
+        "properties": {
+          "templateName": {
+            "type": "string",
+            "nullable": true
+          },
+          "clientId": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
+      "GeneratePdfFromEditorRequest": {
+        "type": "object",
+        "properties": {
+          "templateName": {
+            "type": "string",
+            "nullable": true
+          },
+          "clientId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "documentUrl": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "ParseTemplateRequestDto": {
+        "type": "object",
+        "properties": {
+          "templatePath": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "ParseTemplateResponseDto": {
+        "type": "object",
+        "properties": {
+          "editableHtml": {
+            "type": "string",
+            "nullable": true
+          },
+          "placeholders": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "nullable": true
+          },
+          "malformedPlaceholders": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "PrefillFormRequestDto": {
+        "type": "object",
+        "properties": {
+          "clientId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "formId": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "PrefillFormResponseDto": {
+        "type": "object",
+        "properties": {
+          "prefillUrl": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "PrepareDocumentRequest": {
+        "type": "object",
+        "properties": {
+          "templateName": {
+            "type": "string",
+            "nullable": true
+          },
+          "clientId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "clientData": {
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "SendDocumentRequestDto": {
+        "type": "object",
+        "properties": {
+          "pdfPath": {
+            "type": "string",
+            "nullable": true
+          },
+          "sendViaEmail": {
+            "type": "boolean"
+          },
+          "sendViaDocuSign": {
+            "type": "boolean"
+          },
+          "recipientEmail": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "TemplateDataResponseDto": {
+        "type": "object",
+        "properties": {
+          "data": {
+            "type": "object",
+            "additionalProperties": {
+              "nullable": true
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "TemplateDto": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string",
+            "nullable": true
+          },
+          "path": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "TemplateMetadata": {
+        "type": "object",
+        "properties": {
+          "odooModel": {
+            "type": "string",
+            "nullable": true
+          },
+          "requiredFields": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "WindowsPrepareDocumentRequest": {
+        "type": "object",
+        "properties": {
+          "templateName": {
+            "type": "string",
+            "nullable": true
+          },
+          "clientId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "clientData": {
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "WindowsSaveDocumentRequest": {
+        "type": "object",
+        "properties": {
+          "htmlContent": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  }
+}

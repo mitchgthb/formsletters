@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>7f1e6cfa-5f6d-451d-90f1-bb1e27ea5a3a</UserSecretsId>
+    <DockerDefaultTargetOS>Windows</DockerDefaultTargetOS>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Docker.DotNet" Version="3.125.15" />
+    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.22.1" />
+    <PackageReference Include="OpenXmlPowerTools" Version="4.5.3.2" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="9.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="DocumentFormat.OpenXml" Version="3.3.0" />
+	<PackageReference Include="OpenXmlPowerTools" Version="4.5.3.2" />
+	<PackageReference Include="System.Management.Automation" Version="7.4.6" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Controllers\" />
+  </ItemGroup>
+
+</Project>

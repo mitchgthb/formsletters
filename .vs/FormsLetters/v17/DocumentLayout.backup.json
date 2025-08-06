@@ -1,0 +1,408 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\mitch\\source\\repos\\FormsLetters\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FDEFA4EA-3243-49E9-9C3F-84832B2260EC}|FormsLetters\\FormsLetters.csproj|c:\\users\\mitch\\source\\repos\\formsletters\\formsletters\\controllers\\mocklibreofficecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDEFA4EA-3243-49E9-9C3F-84832B2260EC}|FormsLetters\\FormsLetters.csproj|solutionrelative:formsletters\\controllers\\mocklibreofficecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDEFA4EA-3243-49E9-9C3F-84832B2260EC}|FormsLetters\\FormsLetters.csproj|c:\\users\\mitch\\source\\repos\\formsletters\\formsletters\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{FDEFA4EA-3243-49E9-9C3F-84832B2260EC}|FormsLetters\\FormsLetters.csproj|solutionrelative:formsletters\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDEFA4EA-3243-49E9-9C3F-84832B2260EC}|FormsLetters\\FormsLetters.csproj|c:\\users\\mitch\\source\\repos\\formsletters\\formsletters\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{FDEFA4EA-3243-49E9-9C3F-84832B2260EC}|FormsLetters\\FormsLetters.csproj|solutionrelative:formsletters\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDEFA4EA-3243-49E9-9C3F-84832B2260EC}|FormsLetters\\FormsLetters.csproj|c:\\users\\mitch\\source\\repos\\formsletters\\formsletters\\clientsdata.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{FDEFA4EA-3243-49E9-9C3F-84832B2260EC}|FormsLetters\\FormsLetters.csproj|solutionrelative:formsletters\\clientsdata.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDEFA4EA-3243-49E9-9C3F-84832B2260EC}|FormsLetters\\FormsLetters.csproj|c:\\users\\mitch\\source\\repos\\formsletters\\formsletters\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDEFA4EA-3243-49E9-9C3F-84832B2260EC}|FormsLetters\\FormsLetters.csproj|solutionrelative:formsletters\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mitch\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.22.1\\build\\Container.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDEFA4EA-3243-49E9-9C3F-84832B2260EC}|FormsLetters\\FormsLetters.csproj|c:\\users\\mitch\\source\\repos\\formsletters\\formsletters\\formsletters.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{FDEFA4EA-3243-49E9-9C3F-84832B2260EC}|FormsLetters\\FormsLetters.csproj|solutionrelative:formsletters\\formsletters.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDEFA4EA-3243-49E9-9C3F-84832B2260EC}|FormsLetters\\FormsLetters.csproj|c:\\users\\mitch\\source\\repos\\formsletters\\formsletters\\formsletters.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{FDEFA4EA-3243-49E9-9C3F-84832B2260EC}|FormsLetters\\FormsLetters.csproj|solutionrelative:formsletters\\formsletters.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDEFA4EA-3243-49E9-9C3F-84832B2260EC}|FormsLetters\\FormsLetters.csproj|c:\\users\\mitch\\source\\repos\\formsletters\\formsletters\\controllers\\libreofficecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDEFA4EA-3243-49E9-9C3F-84832B2260EC}|FormsLetters\\FormsLetters.csproj|solutionrelative:formsletters\\controllers\\libreofficecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDEFA4EA-3243-49E9-9C3F-84832B2260EC}|FormsLetters\\FormsLetters.csproj|c:\\users\\mitch\\source\\repos\\formsletters\\formsletters\\services\\documentgenerationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDEFA4EA-3243-49E9-9C3F-84832B2260EC}|FormsLetters\\FormsLetters.csproj|solutionrelative:formsletters\\services\\documentgenerationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDEFA4EA-3243-49E9-9C3F-84832B2260EC}|FormsLetters\\FormsLetters.csproj|c:\\users\\mitch\\source\\repos\\formsletters\\formsletters\\controllers\\letterscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDEFA4EA-3243-49E9-9C3F-84832B2260EC}|FormsLetters\\FormsLetters.csproj|solutionrelative:formsletters\\controllers\\letterscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDEFA4EA-3243-49E9-9C3F-84832B2260EC}|FormsLetters\\FormsLetters.csproj|c:\\users\\mitch\\source\\repos\\formsletters\\formsletters\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{FDEFA4EA-3243-49E9-9C3F-84832B2260EC}|FormsLetters\\FormsLetters.csproj|solutionrelative:formsletters\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDEFA4EA-3243-49E9-9C3F-84832B2260EC}|FormsLetters\\FormsLetters.csproj|c:\\users\\mitch\\source\\repos\\formsletters\\formsletters\\controllers\\templatescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDEFA4EA-3243-49E9-9C3F-84832B2260EC}|FormsLetters\\FormsLetters.csproj|solutionrelative:formsletters\\controllers\\templatescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDEFA4EA-3243-49E9-9C3F-84832B2260EC}|FormsLetters\\FormsLetters.csproj|c:\\users\\mitch\\source\\repos\\formsletters\\formsletters\\services\\sharepointservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDEFA4EA-3243-49E9-9C3F-84832B2260EC}|FormsLetters\\FormsLetters.csproj|solutionrelative:formsletters\\services\\sharepointservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDEFA4EA-3243-49E9-9C3F-84832B2260EC}|FormsLetters\\FormsLetters.csproj|c:\\users\\mitch\\source\\repos\\formsletters\\formsletters\\services\\templatemetadataservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDEFA4EA-3243-49E9-9C3F-84832B2260EC}|FormsLetters\\FormsLetters.csproj|solutionrelative:formsletters\\services\\templatemetadataservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDEFA4EA-3243-49E9-9C3F-84832B2260EC}|FormsLetters\\FormsLetters.csproj|c:\\users\\mitch\\source\\repos\\formsletters\\formsletters\\services\\templateparsingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDEFA4EA-3243-49E9-9C3F-84832B2260EC}|FormsLetters\\FormsLetters.csproj|solutionrelative:formsletters\\services\\templateparsingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDEFA4EA-3243-49E9-9C3F-84832B2260EC}|FormsLetters\\FormsLetters.csproj|c:\\users\\mitch\\source\\repos\\formsletters\\formsletters\\services\\cognitoformsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDEFA4EA-3243-49E9-9C3F-84832B2260EC}|FormsLetters\\FormsLetters.csproj|solutionrelative:formsletters\\services\\cognitoformsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDEFA4EA-3243-49E9-9C3F-84832B2260EC}|FormsLetters\\FormsLetters.csproj|c:\\users\\mitch\\source\\repos\\formsletters\\formsletters\\services\\letter\\lettergenerationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDEFA4EA-3243-49E9-9C3F-84832B2260EC}|FormsLetters\\FormsLetters.csproj|solutionrelative:formsletters\\services\\letter\\lettergenerationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDEFA4EA-3243-49E9-9C3F-84832B2260EC}|FormsLetters\\FormsLetters.csproj|c:\\users\\mitch\\source\\repos\\formsletters\\formsletters\\services\\letter\\letterassemblerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDEFA4EA-3243-49E9-9C3F-84832B2260EC}|FormsLetters\\FormsLetters.csproj|solutionrelative:formsletters\\services\\letter\\letterassemblerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDEFA4EA-3243-49E9-9C3F-84832B2260EC}|FormsLetters\\FormsLetters.csproj|c:\\users\\mitch\\source\\repos\\formsletters\\formsletters\\services\\localfilestorageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDEFA4EA-3243-49E9-9C3F-84832B2260EC}|FormsLetters\\FormsLetters.csproj|solutionrelative:formsletters\\services\\localfilestorageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDEFA4EA-3243-49E9-9C3F-84832B2260EC}|FormsLetters\\FormsLetters.csproj|c:\\users\\mitch\\source\\repos\\formsletters\\formsletters\\config\\libreofficeoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDEFA4EA-3243-49E9-9C3F-84832B2260EC}|FormsLetters\\FormsLetters.csproj|solutionrelative:formsletters\\config\\libreofficeoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDEFA4EA-3243-49E9-9C3F-84832B2260EC}|FormsLetters\\FormsLetters.csproj|c:\\users\\mitch\\source\\repos\\formsletters\\formsletters\\services\\odooservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDEFA4EA-3243-49E9-9C3F-84832B2260EC}|FormsLetters\\FormsLetters.csproj|solutionrelative:formsletters\\services\\odooservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDEFA4EA-3243-49E9-9C3F-84832B2260EC}|FormsLetters\\FormsLetters.csproj|c:\\users\\mitch\\source\\repos\\formsletters\\formsletters\\dtos\\templatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDEFA4EA-3243-49E9-9C3F-84832B2260EC}|FormsLetters\\FormsLetters.csproj|solutionrelative:formsletters\\dtos\\templatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDEFA4EA-3243-49E9-9C3F-84832B2260EC}|FormsLetters\\FormsLetters.csproj|c:\\users\\mitch\\source\\repos\\formsletters\\formsletters\\services\\interfaces\\iodooservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDEFA4EA-3243-49E9-9C3F-84832B2260EC}|FormsLetters\\FormsLetters.csproj|solutionrelative:formsletters\\services\\interfaces\\iodooservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 140,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MockLibreOfficeController.cs",
+              "DocumentMoniker": "C:\\Users\\mitch\\source\\repos\\FormsLetters\\FormsLetters\\Controllers\\MockLibreOfficeController.cs",
+              "RelativeDocumentMoniker": "FormsLetters\\Controllers\\MockLibreOfficeController.cs",
+              "ToolTip": "C:\\Users\\mitch\\source\\repos\\FormsLetters\\FormsLetters\\Controllers\\MockLibreOfficeController.cs",
+              "RelativeToolTip": "FormsLetters\\Controllers\\MockLibreOfficeController.cs",
+              "ViewState": "AgIAAJsBAAAAAAAAAAAcwK4BAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-06T15:54:32.202Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Container.targets",
+              "DocumentMoniker": "C:\\Users\\mitch\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.22.1\\build\\Container.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.22.1\\build\\Container.targets",
+              "ToolTip": "C:\\Users\\mitch\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.22.1\\build\\Container.targets",
+              "RelativeToolTip": "..\\..\\..\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.22.1\\build\\Container.targets",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2025-08-06T14:16:12.831Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "FormsLetters.csproj",
+              "DocumentMoniker": "C:\\Users\\mitch\\source\\repos\\FormsLetters\\FormsLetters\\FormsLetters.csproj",
+              "RelativeDocumentMoniker": "FormsLetters\\FormsLetters.csproj",
+              "ToolTip": "C:\\Users\\mitch\\source\\repos\\FormsLetters\\FormsLetters\\FormsLetters.csproj",
+              "RelativeToolTip": "FormsLetters\\FormsLetters.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-08-06T14:12:55.174Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "LibreOfficeController.cs",
+              "DocumentMoniker": "C:\\Users\\mitch\\source\\repos\\FormsLetters\\FormsLetters\\Controllers\\LibreOfficeController.cs",
+              "RelativeDocumentMoniker": "FormsLetters\\Controllers\\LibreOfficeController.cs",
+              "ToolTip": "C:\\Users\\mitch\\source\\repos\\FormsLetters\\FormsLetters\\Controllers\\LibreOfficeController.cs",
+              "RelativeToolTip": "FormsLetters\\Controllers\\LibreOfficeController.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAgwCQAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-06T13:54:23.44Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "LettersController.cs",
+              "DocumentMoniker": "C:\\Users\\mitch\\source\\repos\\FormsLetters\\FormsLetters\\Controllers\\LettersController.cs",
+              "RelativeDocumentMoniker": "FormsLetters\\Controllers\\LettersController.cs",
+              "ToolTip": "C:\\Users\\mitch\\source\\repos\\FormsLetters\\FormsLetters\\Controllers\\LettersController.cs",
+              "RelativeToolTip": "FormsLetters\\Controllers\\LettersController.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAUwD4AAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-05T20:02:32.092Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "FormsLetters",
+              "DocumentMoniker": "C:\\Users\\mitch\\source\\repos\\FormsLetters\\FormsLetters\\FormsLetters.csproj",
+              "RelativeDocumentMoniker": "FormsLetters\\FormsLetters.csproj",
+              "ToolTip": "C:\\Users\\mitch\\source\\repos\\FormsLetters\\FormsLetters\\FormsLetters.csproj",
+              "RelativeToolTip": "FormsLetters\\FormsLetters.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-08-05T19:59:04.797Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\Users\\mitch\\source\\repos\\FormsLetters\\FormsLetters\\Dockerfile",
+              "RelativeDocumentMoniker": "FormsLetters\\Dockerfile",
+              "ToolTip": "C:\\Users\\mitch\\source\\repos\\FormsLetters\\FormsLetters\\Dockerfile",
+              "RelativeToolTip": "FormsLetters\\Dockerfile",
+              "ViewState": "AgIAABMAAAAAAAAAAAAAACMAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-08-05T19:46:17.159Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "TemplateMetadataService.cs",
+              "DocumentMoniker": "C:\\Users\\mitch\\source\\repos\\FormsLetters\\FormsLetters\\Services\\TemplateMetadataService.cs",
+              "RelativeDocumentMoniker": "FormsLetters\\Services\\TemplateMetadataService.cs",
+              "ToolTip": "C:\\Users\\mitch\\source\\repos\\FormsLetters\\FormsLetters\\Services\\TemplateMetadataService.cs",
+              "RelativeToolTip": "FormsLetters\\Services\\TemplateMetadataService.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwB0AAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-05T14:06:02.135Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ClientsData.json",
+              "DocumentMoniker": "C:\\Users\\mitch\\source\\repos\\FormsLetters\\FormsLetters\\ClientsData.json",
+              "RelativeDocumentMoniker": "FormsLetters\\ClientsData.json",
+              "ToolTip": "C:\\Users\\mitch\\source\\repos\\FormsLetters\\FormsLetters\\ClientsData.json",
+              "RelativeToolTip": "FormsLetters\\ClientsData.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-08-04T18:22:49.482Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "LibreOfficeOptions.cs",
+              "DocumentMoniker": "C:\\Users\\mitch\\source\\repos\\FormsLetters\\FormsLetters\\Config\\LibreOfficeOptions.cs",
+              "RelativeDocumentMoniker": "FormsLetters\\Config\\LibreOfficeOptions.cs",
+              "ToolTip": "C:\\Users\\mitch\\source\\repos\\FormsLetters\\FormsLetters\\Config\\LibreOfficeOptions.cs",
+              "RelativeToolTip": "FormsLetters\\Config\\LibreOfficeOptions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-03T14:10:15.202Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "LetterGenerationService.cs",
+              "DocumentMoniker": "C:\\Users\\mitch\\source\\repos\\FormsLetters\\FormsLetters\\Services\\Letter\\LetterGenerationService.cs",
+              "RelativeDocumentMoniker": "FormsLetters\\Services\\Letter\\LetterGenerationService.cs",
+              "ToolTip": "C:\\Users\\mitch\\source\\repos\\FormsLetters\\FormsLetters\\Services\\Letter\\LetterGenerationService.cs",
+              "RelativeToolTip": "FormsLetters\\Services\\Letter\\LetterGenerationService.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAIBJwCIAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-03T14:08:18.698Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "LetterAssemblerService.cs",
+              "DocumentMoniker": "C:\\Users\\mitch\\source\\repos\\FormsLetters\\FormsLetters\\Services\\Letter\\LetterAssemblerService.cs",
+              "RelativeDocumentMoniker": "FormsLetters\\Services\\Letter\\LetterAssemblerService.cs",
+              "ToolTip": "C:\\Users\\mitch\\source\\repos\\FormsLetters\\FormsLetters\\Services\\Letter\\LetterAssemblerService.cs",
+              "RelativeToolTip": "FormsLetters\\Services\\Letter\\LetterAssemblerService.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAADgvykAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-03T13:57:57.769Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\mitch\\source\\repos\\FormsLetters\\FormsLetters\\appsettings.json",
+              "RelativeDocumentMoniker": "FormsLetters\\appsettings.json",
+              "ToolTip": "C:\\Users\\mitch\\source\\repos\\FormsLetters\\FormsLetters\\appsettings.json",
+              "RelativeToolTip": "FormsLetters\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-08-01T22:16:37.361Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "LocalFileStorageService.cs",
+              "DocumentMoniker": "C:\\Users\\mitch\\source\\repos\\FormsLetters\\FormsLetters\\Services\\LocalFileStorageService.cs",
+              "RelativeDocumentMoniker": "FormsLetters\\Services\\LocalFileStorageService.cs",
+              "ToolTip": "C:\\Users\\mitch\\source\\repos\\FormsLetters\\FormsLetters\\Services\\LocalFileStorageService.cs",
+              "RelativeToolTip": "FormsLetters\\Services\\LocalFileStorageService.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAswDwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-01T19:31:35.118Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "TemplateDto.cs",
+              "DocumentMoniker": "C:\\Users\\mitch\\source\\repos\\FormsLetters\\FormsLetters\\DTOs\\TemplateDto.cs",
+              "RelativeDocumentMoniker": "FormsLetters\\DTOs\\TemplateDto.cs",
+              "ToolTip": "C:\\Users\\mitch\\source\\repos\\FormsLetters\\FormsLetters\\DTOs\\TemplateDto.cs",
+              "RelativeToolTip": "FormsLetters\\DTOs\\TemplateDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-01T13:50:05.777Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "TemplatesController.cs",
+              "DocumentMoniker": "C:\\Users\\mitch\\source\\repos\\FormsLetters\\FormsLetters\\Controllers\\TemplatesController.cs",
+              "RelativeDocumentMoniker": "FormsLetters\\Controllers\\TemplatesController.cs",
+              "ToolTip": "C:\\Users\\mitch\\source\\repos\\FormsLetters\\FormsLetters\\Controllers\\TemplatesController.cs",
+              "RelativeToolTip": "FormsLetters\\Controllers\\TemplatesController.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAAowEQAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-01T13:46:29.909Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "IOdooService.cs",
+              "DocumentMoniker": "C:\\Users\\mitch\\source\\repos\\FormsLetters\\FormsLetters\\Services\\Interfaces\\IOdooService.cs",
+              "RelativeDocumentMoniker": "FormsLetters\\Services\\Interfaces\\IOdooService.cs",
+              "ToolTip": "C:\\Users\\mitch\\source\\repos\\FormsLetters\\FormsLetters\\Services\\Interfaces\\IOdooService.cs",
+              "RelativeToolTip": "FormsLetters\\Services\\Interfaces\\IOdooService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-31T19:30:53.282Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "OdooService.cs",
+              "DocumentMoniker": "C:\\Users\\mitch\\source\\repos\\FormsLetters\\FormsLetters\\Services\\OdooService.cs",
+              "RelativeDocumentMoniker": "FormsLetters\\Services\\OdooService.cs",
+              "ToolTip": "C:\\Users\\mitch\\source\\repos\\FormsLetters\\FormsLetters\\Services\\OdooService.cs",
+              "RelativeToolTip": "FormsLetters\\Services\\OdooService.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAYwB8AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-31T18:36:37.775Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "DocumentGenerationService.cs",
+              "DocumentMoniker": "C:\\Users\\mitch\\source\\repos\\FormsLetters\\FormsLetters\\Services\\DocumentGenerationService.cs",
+              "RelativeDocumentMoniker": "FormsLetters\\Services\\DocumentGenerationService.cs",
+              "ToolTip": "C:\\Users\\mitch\\source\\repos\\FormsLetters\\FormsLetters\\Services\\DocumentGenerationService.cs",
+              "RelativeToolTip": "FormsLetters\\Services\\DocumentGenerationService.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAcwEgAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-31T13:49:50.612Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "SharePointService.cs",
+              "DocumentMoniker": "C:\\Users\\mitch\\source\\repos\\FormsLetters\\FormsLetters\\Services\\SharePointService.cs",
+              "RelativeDocumentMoniker": "FormsLetters\\Services\\SharePointService.cs",
+              "ToolTip": "C:\\Users\\mitch\\source\\repos\\FormsLetters\\FormsLetters\\Services\\SharePointService.cs",
+              "RelativeToolTip": "FormsLetters\\Services\\SharePointService.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAkwDIAAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-31T08:46:25.704Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "CognitoFormsService.cs",
+              "DocumentMoniker": "C:\\Users\\mitch\\source\\repos\\FormsLetters\\FormsLetters\\Services\\CognitoFormsService.cs",
+              "RelativeDocumentMoniker": "FormsLetters\\Services\\CognitoFormsService.cs",
+              "ToolTip": "C:\\Users\\mitch\\source\\repos\\FormsLetters\\FormsLetters\\Services\\CognitoFormsService.cs",
+              "RelativeToolTip": "FormsLetters\\Services\\CognitoFormsService.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAIBJwA4AAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-30T21:59:08.016Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "TemplateParsingService.cs",
+              "DocumentMoniker": "C:\\Users\\mitch\\source\\repos\\FormsLetters\\FormsLetters\\Services\\TemplateParsingService.cs",
+              "RelativeDocumentMoniker": "FormsLetters\\Services\\TemplateParsingService.cs",
+              "ToolTip": "C:\\Users\\mitch\\source\\repos\\FormsLetters\\FormsLetters\\Services\\TemplateParsingService.cs",
+              "RelativeToolTip": "FormsLetters\\Services\\TemplateParsingService.cs",
+              "ViewState": "AgIAAG0AAAAAAAAAAAAowEkAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-30T21:52:39.296Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\mitch\\source\\repos\\FormsLetters\\FormsLetters\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "FormsLetters\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\mitch\\source\\repos\\FormsLetters\\FormsLetters\\appsettings.Development.json",
+              "RelativeToolTip": "FormsLetters\\appsettings.Development.json",
+              "ViewState": "AgIAAAMAAAAAAAAAAIBJwB4AAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-30T20:44:43.3Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\mitch\\source\\repos\\FormsLetters\\FormsLetters\\Program.cs",
+              "RelativeDocumentMoniker": "FormsLetters\\Program.cs",
+              "ToolTip": "C:\\Users\\mitch\\source\\repos\\FormsLetters\\FormsLetters\\Program.cs",
+              "RelativeToolTip": "FormsLetters\\Program.cs",
+              "ViewState": "AgIAADkAAAAAAAAAAAAAAEoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-29T15:04:55.833Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

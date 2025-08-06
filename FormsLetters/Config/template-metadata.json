@@ -1,0 +1,10 @@
+{
+  "send_letter_template.docx": {
+    "odooModel": "res.partner",
+    "requiredFields": ["name", "email", "street", "zip", "city"]
+  },
+  "Template Test.docx": {
+    "odooModel": "res.partner", 
+    "requiredFields": ["name", "email", "street", "zip", "city"]
+  }
+}

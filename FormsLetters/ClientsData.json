@@ -1,0 +1,35 @@
+[
+  {
+    "id": 1,
+    "name": "Acme Corporation",
+    "address": "123 Business St, City, State 12345",
+    "taxNumber": "12-3456789",
+    "email": "accounts@acme.com",
+    "phone": "(555) 010-1000",
+    "contactName": "Jane Smith",
+    "employee": "Alice Johnson",
+    "projects": ["TAX-1001", "TAX-1002"]
+  },
+  {
+    "id": 2,
+    "name": "Globex Industries",
+    "address": "456 Industrial Ave, Metropolis, MT 67890",
+    "taxNumber": "98-7654321",
+    "email": "finance@globex.com",
+    "phone": "(555) 010-2000",
+    "contactName": "Robert Brown",
+    "employee": "Bob Williams",
+    "projects": ["TAX-2001"]
+  },
+  {
+    "id": 3,
+    "name": "Initech",
+    "address": "789 Corporate Blvd, Silicon Valley, CA 94025",
+    "taxNumber": "11-2233445",
+    "email": "tax@initech.com",
+    "phone": "(555) 010-3000",
+    "contactName": "Emily Davis",
+    "employee": "Carol Lee",
+    "projects": []
+  }
+]

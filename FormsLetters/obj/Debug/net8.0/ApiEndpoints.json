@@ -1,0 +1,709 @@
+[
+  {
+    "ContainingType": "FormsLetters.Controllers.LibreOfficeController",
+    "Method": "GeneratePdf",
+    "RelativePath": "api/LibreOffice/generate-pdf",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "FormsLetters.Controllers.GeneratePdfFromEditorRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FormsLetters.Controllers.LibreOfficeController",
+    "Method": "PrepareDocument",
+    "RelativePath": "api/LibreOffice/prepare-document",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "FormsLetters.Controllers.PrepareDocumentRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FormsLetters.Controllers.LibreOfficeController",
+    "Method": "GetFileInfo",
+    "RelativePath": "api/LibreOffice/wopi/files/{fileId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "fileId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FormsLetters.Controllers.LibreOfficeController",
+    "Method": "GetFileContents",
+    "RelativePath": "api/LibreOffice/wopi/files/{fileId}/contents",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "fileId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FormsLetters.Controllers.LibreOfficeController",
+    "Method": "UpdateFileContents",
+    "RelativePath": "api/LibreOffice/wopi/files/{fileId}/contents",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "fileId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FormsLetters.Controllers.MockLibreOfficeController",
+    "Method": "GetCapabilities",
+    "RelativePath": "api/MockLibreOffice/capabilities",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FormsLetters.Controllers.MockLibreOfficeController",
+    "Method": "GetEditor",
+    "RelativePath": "api/MockLibreOffice/editor/{templateId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "templateId",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "clientId",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FormsLetters.Controllers.MockLibreOfficeController",
+    "Method": "PreviewDocument",
+    "RelativePath": "api/MockLibreOffice/preview/{templateId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "templateId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FormsLetters.Controllers.MockLibreOfficeController",
+    "Method": "GetTemplates",
+    "RelativePath": "api/MockLibreOffice/templates",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FormsLetters.Controllers.WindowsLibreOfficeController",
+    "Method": "GetDocument",
+    "RelativePath": "api/windows-libreoffice/document/{fileId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "fileId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FormsLetters.Controllers.WindowsLibreOfficeController",
+    "Method": "EditDocument",
+    "RelativePath": "api/windows-libreoffice/edit/{fileId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "fileId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FormsLetters.Controllers.WindowsLibreOfficeController",
+    "Method": "GeneratePdf",
+    "RelativePath": "api/windows-libreoffice/generate-pdf/{fileId}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "fileId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FormsLetters.Controllers.WindowsLibreOfficeController",
+    "Method": "GetPdf",
+    "RelativePath": "api/windows-libreoffice/pdf/{fileName}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "fileName",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FormsLetters.Controllers.WindowsLibreOfficeController",
+    "Method": "PrepareDocument",
+    "RelativePath": "api/windows-libreoffice/prepare-document",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "FormsLetters.DTOs.WindowsPrepareDocumentRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FormsLetters.Controllers.WindowsLibreOfficeController",
+    "Method": "SaveDocument",
+    "RelativePath": "api/windows-libreoffice/save-document/{fileId}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "fileId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "FormsLetters.DTOs.WindowsSaveDocumentRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FormsLetters.Controllers.WindowsLibreOfficeController",
+    "Method": "GetStatus",
+    "RelativePath": "api/windows-libreoffice/status",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FormsLetters.Controllers.ClientInfoController",
+    "Method": "GetAll",
+    "RelativePath": "client-info",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[FormsLetters.DTOs.ClientInfoDto, FormsLetters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "FormsLetters.Controllers.ClientInfoController",
+    "Method": "Get",
+    "RelativePath": "client-info/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "FormsLetters.DTOs.ClientInfoDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "FormsLetters.Controllers.ClientInfoController",
+    "Method": "GetData",
+    "RelativePath": "client-info/{id}/data",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "template",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "FormsLetters.DTOs.TemplateDataResponseDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "FormsLetters.Controllers.ClientsController",
+    "Method": "GetClients",
+    "RelativePath": "clients",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[FormsLetters.DTOs.ClientDto, FormsLetters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "FormsLetters.Controllers.TemplateDataController",
+    "Method": "GetData",
+    "RelativePath": "clients/{id}/data",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "template",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "FormsLetters.DTOs.TemplateDataResponseDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "FormsLetters.Controllers.TemplateDataController",
+    "Method": "GetAllMetadata",
+    "RelativePath": "clients/template-metadata",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IDictionary\u00602[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[FormsLetters.DTOs.TemplateMetadata, FormsLetters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "FormsLetters.Controllers.FormsController",
+    "Method": "GetForms",
+    "RelativePath": "forms",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[FormsLetters.DTOs.FormDto, FormsLetters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "FormsLetters.Controllers.FormsController",
+    "Method": "GetForm",
+    "RelativePath": "forms/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "FormsLetters.DTOs.FormDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "FormsLetters.Controllers.FormsController",
+    "Method": "PrefillForm",
+    "RelativePath": "forms/prefill",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "FormsLetters.DTOs.PrefillFormRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "FormsLetters.DTOs.PrefillFormResponseDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "FormsLetters.Controllers.DocumentsController",
+    "Method": "Generate",
+    "RelativePath": "generate",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "FormsLetters.DTOs.GenerateDocumentRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "FormsLetters.DTOs.GenerateDocumentResponseDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "FormsLetters.Controllers.LettersController",
+    "Method": "Generate",
+    "RelativePath": "letters/generate",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "FormsLetters.DTOs.GenerateLetterRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "FormsLetters.DTOs.GenerateDocumentResponseDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "FormsLetters.Controllers.LettersController",
+    "Method": "GenerateFromHtml",
+    "RelativePath": "letters/generate-from-html",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "FormsLetters.DTOs.GenerateLetterFromHtmlRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "FormsLetters.DTOs.GenerateDocumentResponseDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "FormsLetters.Controllers.LettersController",
+    "Method": "GetPdf",
+    "RelativePath": "letters/pdf/{fileName}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "fileName",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FormsLetters.MockLibreOfficeOnlineController",
+    "Method": "GetCapabilities",
+    "RelativePath": "mock-libreoffice/hosting/capabilities",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FormsLetters.MockLibreOfficeOnlineController",
+    "Method": "GetDiscovery",
+    "RelativePath": "mock-libreoffice/hosting/discovery",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FormsLetters.MockLibreOfficeOnlineController",
+    "Method": "GetViewer",
+    "RelativePath": "mock-libreoffice/lool/{fileId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "fileId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "WOPISrc",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FormsLetters.Controllers.DocumentsController",
+    "Method": "Send",
+    "RelativePath": "send",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "FormsLetters.DTOs.SendDocumentRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FormsLetters.Controllers.TemplatesController",
+    "Method": "GetTemplates",
+    "RelativePath": "templates",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[FormsLetters.DTOs.TemplateDto, FormsLetters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "FormsLetters.Controllers.TemplatesController",
+    "Method": "ParseTemplate",
+    "RelativePath": "templates/parse-template",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "FormsLetters.DTOs.ParseTemplateRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "FormsLetters.DTOs.ParseTemplateResponseDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "FormsLetters.Controllers.TemplatesController",
+    "Method": "Upload",
+    "RelativePath": "templates/upload",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "file",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "FormsLetters.DTOs.TemplateDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "FormsLetters.Controllers.WebhookController",
+    "Method": "Cognito",
+    "RelativePath": "webhook/cognito",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "FormsLetters.DTOs.CognitoFormSubmissionDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
